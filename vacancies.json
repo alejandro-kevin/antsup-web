@@ -1,0 +1,25 @@
+[
+    { "id": 1,
+    "image":"comps-images/mision-empresarial.jpeg",
+    "company_name": "Mision Empresarial S.A",
+    "location": "Edificio torre Bolívar, Cra. 7 #19 28 oficina 304",
+    "vacancy": "Asesora comercial", 
+    "description": "¡Únete a nuestro equipo como Asesora comercial! Importante empresa del sector retail , dedicada a la fabricación y comercialización de prendas de vestir, se encuentra en la búsqueda de Asesor comercial para Pereira - Multicentro. Horario: Lunes a sábado - turnos rotativos (9am a 6pm, 10am a 7pm, 11am a 8pm o 12pm a 9pm) - 2 domingos al mes.",
+    "phone":"3081234557" },
+
+    { "id": 2, 
+    "image":"comps-images/activos.jpeg",
+    "company_name": "ACTIVOS S A S", 
+    "location":"Cra. 5 #17-64",
+    "vacancy": "Operador montacarga",
+    "description":"Importante empresa del sector industriaL de bebidas no alcohólicas se encuentra en búsqueda de Montacarguistas",
+    "phone":"3081234557"},
+
+    { "id": 3, 
+    "image":"comps-images/logique.jpeg",
+    "company_name": "Logique Entertainment", 
+    "location":"CRA 74B#51 A-94",
+    "vacancy": "Asesor comercial - mercaderista, impulsador, promotor",
+    "description":"¿Estás en búsqueda de empleo? ¡Esta es tu oportunidad! Solicitamos asesores comerciales externos para ofrecer aplicación de servicios Gopass, venta en frío de aplicación que facilita pagos electrónicos. En un punto fijo, no es TAT ni PAP. ¡Si cuentas con muy buenas habilidades comerciales, esta es tu oportunidad!",
+    "phone": "3081234557"}
+]

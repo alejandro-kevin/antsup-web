@@ -1,0 +1,114 @@
+/* selector universal */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Nova flat;
+    box-sizing: border-box;
+}
+
+/* ------ body ----- */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #DCE8B4;
+}
+
+/* ------ header ----- */
+/*header {
+}*/
+
+/* logo de antsup */
+.antsup-logo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.antsup-logo img{
+   width: 400px;
+}
+
+/* ------ main ----- */
+main {
+    margin: 0 auto;
+    width: 60%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-container {
+    padding: 3px;
+    background-color: #DCE8B4;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-color: #386641;
+    border-width: 3px;               
+}
+
+.vacancies-title {
+    font-size: 20px;
+    background-color: #DCE8B4;
+    color: #386641;
+}
+
+/* contenedor de la carta de vacantes */
+.vacancies-container {
+   width: 100%;
+   margin-top: 30px;
+}
+
+/* slider */
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-width: 3px;
+    border-color: #386641;
+}
+
+.vertical-slider {
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+}
+
+/* contenido de la vacante */
+.vacancy-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.vacancy-content img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.vacancy-info {
+    flex: 1;
+}
+
+/* ------ footer ----- */
+footer {
+    padding: 10px;
+}
+
+footer p {
+    background-color: #DCE8B4;
+    font-size: 10px;
+}
+
