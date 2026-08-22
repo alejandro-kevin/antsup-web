@@ -18,12 +18,18 @@ async function loadVacancies() {
             card.innerHTML = `
                 <div class="vacancy-content">
                     <img src=${vacancy.image}></img>
+                    
                     <div class="vacancy-info">
-                        <h3>${vacancy.company_name}</h3>
-                        <p>${vacancy.location}</p>
-                        <p>${vacancy.vacancy}</p>
-                        <p>${vacancy.description}</p>
-                        <p>${vacancy.phone}</p>
+                        <h3 class="endLine">${vacancy.company_name}</h3>
+                        <p class="endLine"><i>Direccion:</i> ${vacancy.location}</p>
+                        <p><i>Vacante:</i> ${vacancy.vacancy}</p>
+                        <p class="endLine"><i>Descripcion:</i> ${vacancy.description}</p>
+                        <p class="endLine"><i>Horario:</i> ${vacancy.schedule}</p>
+                        <p><i>Salario:</i> ${vacancy.salary}</p>
+                        <div class="whatsapp-contact">
+                        <img class="whatsapp-icon" src="icons/whatsapp_logo.svg">
+                        <button class="whatsapp-button" onclick="window.open('https://wa.me/${vacancy.phone}', '_blank')"><i>Contacto: ${vacancy.phone}</i></button>
+                        </div>
                     </div>
                 </div>
             `;
